@@ -19,6 +19,6 @@ function divSelector(){
   return lastElement
 }
 function firstListItem(){
-  var frstLstItm = $('ul#pic-list:first-child()')
+  var frstLstItm = $('ul#pic-list li:first-child()')
   return frstLstItm
 }
